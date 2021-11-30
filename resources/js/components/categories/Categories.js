@@ -3,7 +3,7 @@ import React from 'react'
 function Categories() {
   return (
     <div>
-      <h3>Category</h3>
+      <h4>Categories</h4>
     </div>
   )
 }

@@ -19,10 +19,10 @@ function Blog() {
       <Hero />
       <div className="container">
         <div className="row">
-          <div className="col-8 news">
+          <div className="col-10 news">
             <News />
           </div>
-          <div className="col-4 categories">
+          <div className="col-2 categories">
             <Categories />
           </div>
         </div>

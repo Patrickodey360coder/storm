@@ -20,15 +20,15 @@ body {
 }
 
 .news {
-  background-color: olive;
+  background-color: rgb(236, 236, 232);
   height: 400px;
 }
 
 .categories {
-  background-color: orangered;
+  background-color: rgb(255, 255, 255);
   height: 400px;
 }
 
-h3 {
+h3, h1 {
   color: #fff;
 }

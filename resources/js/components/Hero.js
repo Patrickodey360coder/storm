@@ -6,7 +6,7 @@ function Hero() {
       <div className="container">
         <div className="row">
           <div className="col-12 text-center">
-            <p>Welcome to my Blog</p>
+            <h1>Welcome to my Blog</h1>
           </div>
         </div>
       </div>
