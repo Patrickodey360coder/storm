@@ -1,4 +1,6 @@
 import React from 'react'
+// import DateCountdown from 'react-date-countdown-timer';
+
 
 function ComingSoon() {
   return (
@@ -7,6 +9,7 @@ function ComingSoon() {
         <p>Akshiptika Blog</p>
         <h1>COMING SOON</h1>
         <hr />
+        
       </div>
     </div>
   )
