@@ -1,6 +1,6 @@
 import React from 'react';
 import { useForm } from 'react-hook-form';
-import '../components/App.css';
+// import '../components/App.css';
 
 export default function Footer() {
   const {register, handleSubmit, reset, formState: { errors }} = useForm({

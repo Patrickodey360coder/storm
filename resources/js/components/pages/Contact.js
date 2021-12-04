@@ -1,6 +1,6 @@
 import React from 'react';
 import {useForm} from 'react-hook-form';
-import img from '../images/contact.svg';
+import img from '../../../images/contact.svg';
 
 function Contact() {
   const {register, handleSubmit, reset, formState: {errors}} = useForm();

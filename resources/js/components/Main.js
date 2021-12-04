@@ -5,6 +5,8 @@ import Hero from './Hero';
 import Services from './pages/Services';
 import About from './pages/About';
 import Team from './pages/Team';
+import Contact from './pages/Contact';
+import Footer from './Footer';
 
 function Main() {
   return (
@@ -12,7 +14,10 @@ function Main() {
       <Navbar />
       <Hero />
       <Services />
+      <About />
       <Team />
+      <Contact />
+      <Footer />
     </>
   )
 }
