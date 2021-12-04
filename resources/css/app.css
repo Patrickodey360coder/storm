@@ -251,46 +251,7 @@ h1, h4, h5 {
   }
 }
 
-
-
-
-
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Roboto', sans-serif!important;
-}
-
-.hero {
-  height: 400px;
-  background: rgb(2,0,36);
-  color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.news {
-  background-color: olive;
-  height: 400px;
-}
-
-.categories {
-  background-color: orangered;
-  height: 400px;
-}
-
-h3 {
-  color: #fff;
-} */
-
-/* #coming_soon {
+#coming_soon {
   background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.8)) , url('../images/coming_soon.jpg');
   color: white;
   height: 100vh;
@@ -300,4 +261,4 @@ h3 {
   align-items: center;
   background-position: center;
   background-size: cover;
-} */
+}
