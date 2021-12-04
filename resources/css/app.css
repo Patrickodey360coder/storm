@@ -262,3 +262,15 @@ h1, h4, h5 {
   background-position: center;
   background-size: cover;
 }
+
+#maintenance {
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.8)) , url('../images/maintenance.jpg');
+  color: white;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+}
