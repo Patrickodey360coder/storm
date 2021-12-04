@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import News from './news/News'
 import Categories from './categories/Categories'
 import Hero from './Hero'
-import ComingSoon from './ComingSoon';
+import ComingSoon from './pages/ComingSoon';
 
 function Blog() {
   const api_key = 'ac7d9996770a49ef9bacc2e5a740515c';
