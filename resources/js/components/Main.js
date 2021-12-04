@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Home';
 import Blog from './Blog'
 import Maintenance from './pages/Maintenance';
+import NotFound from './pages/NotFound'
 
 function Main() {
   return (
@@ -14,6 +15,7 @@ function Main() {
             <Route exact path="/" element={<Home/>} />
             <Route path="/blog" element={<Blog />} />
             <Route path='/maintenance' element={<Maintenance/>} />
+            <Route path="*" element={<NotFound/>} />
           </Routes>
       </Router>
 
