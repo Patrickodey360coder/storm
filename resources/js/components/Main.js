@@ -1,23 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Navbar from './Navbar';
-import Hero from './Hero';
-import Services from './pages/Services';
-import About from './pages/About';
-import Team from './pages/Team';
-import Contact from './pages/Contact';
-import Footer from './Footer';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Home from './Home';
+
+import Blog from './Blog'
 
 function Main() {
   return (
     <>
-      <Navbar />
-      <Hero />
-      <Services />
-      <About />
-      <Team />
-      <Contact />
-      <Footer />
+      <Router>
+          <Routes>
+            <Route exact path="/" element={<Home/>} />
+            <Route path="/blog" element={<Blog />} />
+          </Routes>
+      </Router>
+
     </>
   )
 }
