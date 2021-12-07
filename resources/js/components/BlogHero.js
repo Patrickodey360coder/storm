@@ -16,7 +16,7 @@ function BlogHero() {
         <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3" className=""></button>
       </div>
       <div className="carousel-inner">
-        <div className="carousel-item active">
+        <div className="carousel-item img-fluid active">
           <img className="custom-img" src={bg1}  alt={bg1}/>
           <div className="container">
             <div className="carousel-caption text-start">
@@ -27,7 +27,7 @@ function BlogHero() {
           </div>
         </div>
         <div className="carousel-item">
-          <img className="custom-img" src={bg2} alt={bg2}/>
+          <img className="custom-img img-fluid" src={bg2} alt={bg2}/>
           <div className="container">
             <div className="carousel-caption">
               <h2>James Beard</h2>
@@ -37,7 +37,7 @@ function BlogHero() {
           </div>
         </div>
         <div className="carousel-item">
-          <img className="custom-img" src={bg3} alt={bg3}/>
+          <img className="custom-img img-fluid" src={bg3} alt={bg3}/>
           <div className="container">
             <div className="carousel-caption text-end">
               <h2>Julia Child.</h2>

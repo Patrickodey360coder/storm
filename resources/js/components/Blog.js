@@ -23,43 +23,11 @@ function Blog() {
       <BlogHero />
       <div className="container">
         <div className="row">
-          {news.map((data) => (
-            <div className="col-12 col-sm-6 col-md-4 col-lg-3">
-              <News data={data} key={data.url}  />
+          {news.map((data, id) => (
+            <div key={id} className="col-12 col-sm-6 col-md-4 col-lg-3">
+              <News data={data} />
             </div>
           ))}
-          <div className="col-md-4">
-            <div className="card">
-            <img src="..." className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4">
-            <div className="card">
-            <img src="..." className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-md-4">
-            <div className="card">
-            <img src="..." className="card-img-top" alt="..." />
-              <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" className="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     </>

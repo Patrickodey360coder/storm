@@ -9,13 +9,11 @@ function News(props) {
   return (
     <>
       <div className="news mt-5">
-        <div className="container">
-          <img src={urlToImage} className="img-fluid" alt="..."/>
-            <p className="card-text">{title}</p>
-          <div className="">
-            <small>Author: {author}</small><br/>
-            <small><Link to="#">Read more...</Link></small>
-          </div>
+        <p className="blog-meta">By {author}</p>
+        <img src={urlToImage} className="img-fluid" alt="..."/>
+        <div className="blog-info">
+          <h2 className="blog-text">{title}</h2>
+          <Link className="btn btn-small btn-primary" to="#">Read more...</Link>
         </div>
       </div>
     </>
