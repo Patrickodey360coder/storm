@@ -1,43 +1,26 @@
 import React, {useEffect, useState} from 'react'
-import ReactDOM from 'react-dom';
 import News from './news/News'
 import Categories from './categories/Categories'
-import Hero from './Hero'
-import ComingSoon from './pages/ComingSoon';
+import BlogHero from './BlogHero'
 
 function Blog() {
-  const api_key = 'ac7d9996770a49ef9bacc2e5a740515c';
-  const [news, setNews] = useState([]);
-  const [categories, setCategories] = useState([]);
-
-  useEffect(() => {
-
-  }, [])
-
+  // const api_key = 'ac7d9996770a49ef9bacc2e5a740515c';
 
   return (
-    // <div className="blog">
-    //   <Hero />
-    //   <div className="container">
-    //     <div className="row">
-    //       <div className="col-10 news">
-    //         <News />
-    //       </div>
-    //       <div className="col-2 categories">
-    //         <Categories />
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
-
-    <>
-      <ComingSoon />
-    </>
+    <div className="blog">
+      <BlogHero />
+      <div className="container">
+        <div className="row mt-3">
+          <div className="col-10 news">
+            <News />
+          </div>
+          <div className="col-2 categories">
+            <Categories />
+          </div>
+        </div>
+      </div>
+    </div>
   )
 }
 
 export default Blog
-
-if (document.getElementById('blog')) {
-  ReactDOM.render(<Blog />, document.getElementById('blog'));
-}

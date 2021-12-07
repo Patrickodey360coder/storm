@@ -288,3 +288,19 @@ h1, h4, h5 {
   background-repeat: no-repeat;
   background-size: cover; */
 }
+
+.blog_hero {
+  height: 450px;
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)) , url('../images/maintenance.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 18rem;
+}
