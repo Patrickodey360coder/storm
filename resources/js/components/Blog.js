@@ -8,7 +8,7 @@ function Blog() {
   // const api_key = 'ac7d9996770a49ef9bacc2e5a740515c';
 
   return (
-    <div className="blog">
+    <>
       <BlogNav />
       <BlogHero />
       <div className="container">
@@ -21,7 +21,7 @@ function Blog() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   )
 }
 
