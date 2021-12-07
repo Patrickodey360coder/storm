@@ -6,7 +6,7 @@ import logo from '../../images/logo.svg'
 
 function Navs() {
   return (
-       <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+       <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="navbar sticky-top">
         <Container>
         <Navbar.Brand href="/" className="orange"><img src={logo} alt={logo} className="img-fluid logo" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

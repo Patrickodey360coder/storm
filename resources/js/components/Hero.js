@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styled from 'styled-components';
 import bg from '../../images/bg3.svg'
 
@@ -74,7 +75,7 @@ function Hero() {
           <div>
             <h1 className="mb-lg-5 pe-lg-5 py-1">Bettter digital experience with Akshiptika Infotech</h1>
             <p className="mb-lg-5 ">For next generation of big businesses.</p>
-            <button className="btn btn-pink btn-lg">Start a Free Trial</button>
+            <a href="#contact" className="btn btn-pink btn-lg">Let's talk</a>
           </div>
         </WelcomeText>
         <WelcomeImage>
