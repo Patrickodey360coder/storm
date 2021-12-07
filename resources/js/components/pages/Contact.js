@@ -1,12 +1,20 @@
 import React from 'react';
 import {useForm} from 'react-hook-form';
 import img from '../../../images/contact.svg';
+import swal from 'sweetalert';
+
 
 function Contact() {
   const {register, handleSubmit, reset, formState: {errors}} = useForm();
 
   const onSubmit = (data) => {
     console.log(data);
+    swal({
+      title: "Thanks!",
+      text: "Your message have been submitted!",
+      icon: "success",
+      button: "OK!",
+    });
     reset({});
   }
 

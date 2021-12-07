@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar, Container, Nav } from 'react-bootstrap'
-import logo from '../../images/logo.png'
+import logo from '../../images/logo.svg'
 
 function BlogNav() {
   return (
@@ -11,16 +11,16 @@ function BlogNav() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Item>
-              <Nav.Link eventKey="1" href="#hero">Home</Nav.Link>
+              <Nav.Link eventKey="1" href="/">Home</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="2" href="#services">News</Nav.Link>
+              <Nav.Link eventKey="2" href="/blog">News</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="3" href="#about">Opportunities</Nav.Link>
+              <Nav.Link eventKey="3" href="#">Opportunities</Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="4" href="#team">Events</Nav.Link>
+              <Nav.Link eventKey="4" href="#">Events</Nav.Link>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
