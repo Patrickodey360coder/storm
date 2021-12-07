@@ -4,6 +4,25 @@ function Categories() {
   return (
     <div>
       <h4>Categories</h4>
+      <h4>Categories</h4>
+      <h4>Categories</h4>
+      <h4>Categories</h4>
+      <h4>Categories</h4>
+      <h4>Categories</h4>
+      <h4>Categories</h4>
+      <h4>Categories</h4>
+      <h4>Categories</h4>
+      <h4>Categories</h4>
+      <h4>Categories</h4>
+      <h4>Categories</h4>
+      <h4>Categories</h4>
+      <h4>Categories</h4>
+      <h4>Categories</h4>
+      <h4>Categories</h4>
+      <h4>Categories</h4>
+      <h4>Categories</h4>
+      <h4>Categories</h4>
+
     </div>
   )
 }

@@ -331,13 +331,3 @@ h1, h4, h5 {
   position: relative;
 } 
 
-.carousel {
-  width: 100% !important;
-  overflow: hidden!important;
-  /* right: 0!important; */
-}
-
-.carousel-caption {
-  /* right: 0!important; */
-  /* left: 0!important; */
-}
