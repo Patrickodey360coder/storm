@@ -7,7 +7,6 @@ export default function Footer() {
   });
 
   const onSubmit = (data) => {
-    console.log(data);
     swal({
       title: "Congrats!",
       text: "You have subscribed to our newsletter!",

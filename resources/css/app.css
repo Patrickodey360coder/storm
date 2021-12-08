@@ -24,6 +24,24 @@ html,body
   background-color: #fff!important;
 }
 
+.navbar a {
+  color: #3292D9!important;
+}
+
+/* Carousel overlay */
+.drk:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:#000;
+  opacity:0.5;
+}
+
+
 .logo {
   height: 35px;
 }
@@ -47,6 +65,7 @@ h1, h4, h5 {
 
 h1 {
   font-size: 25px;
+  color: #3292D9;
 }
 
 .team-img img {
@@ -59,7 +78,7 @@ h1 {
 }
 
 .btn-pink {
-  background: #FF6584;
+  background: #3292D9;
   color: #fff;
   padding: 1em auto;
   font-size: 18px;
@@ -69,9 +88,39 @@ h1 {
   letter-spacing: 2px;
 }
 
-#services p {
-  font-size: 16px;
+#services i {
+  color: #3292D9;
 }
+
+#services h5 {
+  font-family: 'Roboto','Arial';
+  color: #3292D9;
+  font-size: 100%;
+  text-shadow: none;
+  line-height: 1.8;
+  font-style: normal;
+  text-decoration: none;
+  letter-spacing: 1px;
+  word-spacing: normal;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#services p {
+    font-family: 'Roboto','Arial';
+    color: #808b95;
+    font-size: 100%;
+    text-shadow: none;
+    line-height: 1.8;
+    font-style: normal;
+    text-decoration: none;
+    text-align: justify;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    font-weight: normal
+}
+
 
 .value {
   margin: 1rem auto;
@@ -102,7 +151,7 @@ input:focus, textarea:focus, select:focus{
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #FF6584;
+  background: #3292D9;
   color: #fff!important;
   line-height: 1;
   padding: 8px 0;
@@ -159,14 +208,14 @@ input:focus, textarea:focus, select:focus{
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #FF6584;
+  background: #3292D9;
   color: #fff;
   transition: 0.3s;
   border-radius: 4px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 #footer .footer-newsletter form input[type=submit]:hover {
-  background: #FF6584;
+  background: #3292D9;
 }
 #footer .footer-top {
   padding: 60px 0 30px 0;
@@ -226,12 +275,12 @@ input:focus, textarea:focus, select:focus{
 }
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #FF6584;
+  color: #3292D9;
 }
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #FF6584;
+  background: #3292D9;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -243,7 +292,7 @@ input:focus, textarea:focus, select:focus{
   transition: 0.3s;
 }
 #footer .footer-top .social-links a:hover {
-  background: #FF6584;
+  background: #3292D9;
   color: #fff;
   text-decoration: none;
 }
@@ -258,12 +307,10 @@ input:focus, textarea:focus, select:focus{
   color: #212529;
 }
 #footer .credits a {
-  color: #FF6584;
+  color: #3292D9;
 }
 @media (max-width: 575px) {
   #about {
-    /* padding: 2em auto; */
-    /* height: 500px; */
     font-size: 14px;
   }
   #footer .copyright, #footer .credits {
@@ -271,6 +318,18 @@ input:focus, textarea:focus, select:focus{
     -moz-text-align-last: center;
     text-align-last: center;
     padding: 3px 0;
+  }
+
+  .custom-img {
+    /* max-height: 500px; */
+    height: 300px;
+    width: 100%;
+    /* object-fit: cover; */
+    background-position: center;
+  }
+
+  .service-card {
+    padding: 1em 1em;
   }
 }
 
