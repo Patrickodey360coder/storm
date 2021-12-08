@@ -28,6 +28,15 @@ html,body
   color: #3292D9!important;
 }
 
+.navbar i {
+  color: #3292D9!important;
+}
+
+.navbar-toggler {
+  border: none!important;
+  color: #3292D9;
+}
+
 /* Carousel overlay */
 .drk:after {
   content:"";
@@ -114,11 +123,41 @@ h1 {
     line-height: 1.8;
     font-style: normal;
     text-decoration: none;
-    text-align: justify;
+    text-align: center;
     letter-spacing: normal;
     word-spacing: normal;
     text-transform: none;
     font-weight: normal
+}
+
+.service-header {
+  font-family: 'Roboto','Arial';
+  color: #3292D9;
+  font-size: 262.5%;
+  text-shadow: none;
+  line-height: 1.4;
+  font-style: normal;
+  text-decoration: none;
+  text-align: inherit;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  font-weight: bold;
+}
+
+.service-text {
+  font-family: 'Roboto','Arial';
+  color: #808b95;
+  font-size: 125%;
+  text-shadow: none;
+  line-height: 1.8;
+  font-style: normal;
+  text-decoration: none;
+  text-align: inherit;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  font-weight: normal;
 }
 
 
@@ -127,7 +166,11 @@ h1 {
 }
 
 #team p {
-  font-size: 16px;
+  font-size: 14px;
+}
+
+#team h5 {
+  font-size: 18px;
 }
 
 #about {
@@ -320,16 +363,8 @@ input:focus, textarea:focus, select:focus{
     padding: 3px 0;
   }
 
-  .custom-img {
-    /* max-height: 500px; */
-    height: 300px;
-    width: 100%;
-    /* object-fit: cover; */
-    background-position: center;
-  }
-
   .service-card {
-    padding: 1em 1em;
+    padding: 2em 2em;
   }
 }
 
@@ -384,9 +419,12 @@ input:focus, textarea:focus, select:focus{
   background-size: cover; */
 }
 
+.carousel {
+  height: 500px;
+}
 
 .custom-img {
-  max-height: 600px;
+  height: 500px;
   width: 100%;
   object-fit: cover;
   background-position: center;

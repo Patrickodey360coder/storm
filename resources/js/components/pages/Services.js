@@ -11,9 +11,17 @@ function Services() {
   return (
     <div id="services">
       <div className="container">
-        <div className="row">
-          <div className="col-6"></div>
-          <div className="col-6"></div>
+        <div className="row my-2 mx-2">
+          <div className="col-12 col-sm-12 col-md-6 col-lg-6">
+            <div className="service-header my-2">
+              We build experiences to elevate your Business.
+            </div>
+          </div>
+          <div className="col-12 col-sm-12 col-md-6 col-lg-6">
+            <div className="service-text my-2">
+            Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; UI & UX design; authoring, and search engine optimization.
+            </div>
+          </div>
         </div>
         <div className="row text-center">
           <div className="col-lg-4 col-md-4 col-sm-6 col-xs-12 service-card">
