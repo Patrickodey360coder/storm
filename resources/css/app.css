@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 } 
 
 
@@ -15,22 +16,15 @@ html,body
     padding: 0px;
     overflow-x: hidden!important; 
     font-family: 'Roboto', sans-serif!important;
-    scroll-behavior: smooth;
+    font-family: 'Poppins', sans-serif!important;
 }
 
-.carousel-item {
-	transition: -webkit-transform 0.5s ease!important;
-	transition: transform 0.5s ease!important;
-	transition: transform 0.5s ease, -webkit-transform 0.5s ease!important;
-	-webkit-backface-visibility: visible!important;
-	        backface-visibility: visible!important;
-    overflow-x: hidden!important; 
-
+.navbar {
+  font-family: 'Poppins', sans-serif!important;
 }
 
 .logo {
   height: 35px;
-  /* width: 50%; */
 }
 
 .img {
@@ -95,6 +89,10 @@ h1, h4, h5 {
 
 #about p {
   font-size: 16px;
+}
+
+input:focus, textarea:focus, select:focus{
+  outline: none;
 }
 
 #footer .footer-top .social-links a {

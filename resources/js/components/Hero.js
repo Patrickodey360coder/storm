@@ -73,7 +73,7 @@ function Hero() {
       <HeroWrapper className="container" id="hero">
         <WelcomeText>
           <div>
-            <h1 className="mb-lg-5 pe-lg-5 py-1">Bettter digital experience with Akshiptika Infotech</h1>
+            <h1 className="mb-lg-5 pe-lg-5 py-1">Better digital experience with Akshiptika Infotech</h1>
             <p className="mb-lg-5 ">For next generation of big businesses.</p>
             <a href="#contact" className="btn btn-pink btn-lg">Let's talk</a>
           </div>
