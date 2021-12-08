@@ -15,6 +15,7 @@ html,body
     padding: 0px;
     overflow-x: hidden!important; 
     font-family: 'Roboto', sans-serif!important;
+    scroll-behavior: smooth;
 }
 
 .carousel-item {

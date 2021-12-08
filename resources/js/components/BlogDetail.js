@@ -1,11 +1,14 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router'
-import { Link  } from 'react-router-dom'
+// import { Link  } from 'react-router-dom'
 
 function BlogDetail() {
+  const api_key = 'ac7d9996770a49ef9bacc2e5a740515c';
+  const url = `https://newsapi.org/v2/everything?q=tesla&from=2021-11-07&sortBy=publishedAt&apiKey=${api_key}/`;
+
   let { id } = useParams()
 
-  const [ blog, setBlog ] = useState([])
+  console.log(`The blog result is ${id}`);
 
   return (
     <>
