@@ -21,6 +21,7 @@ html,body
 
 .navbar {
   font-family: 'Poppins', sans-serif!important;
+  background-color: #fff!important;
 }
 
 .logo {
@@ -42,6 +43,10 @@ html,body
 
 h1, h4, h5 {
   font-weight: 900;
+}
+
+h1 {
+  font-size: 25px;
 }
 
 .team-img img {
@@ -81,7 +86,6 @@ h1, h4, h5 {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 450px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -257,6 +261,11 @@ input:focus, textarea:focus, select:focus{
   color: #FF6584;
 }
 @media (max-width: 575px) {
+  #about {
+    /* padding: 2em auto; */
+    /* height: 500px; */
+    font-size: 14px;
+  }
   #footer .copyright, #footer .credits {
     float: none;
     -moz-text-align-last: center;
@@ -318,8 +327,7 @@ input:focus, textarea:focus, select:focus{
 
 
 .custom-img {
-  max-height: 350px;
-  height: 320px;
+  max-height: 600px;
   width: 100%;
   object-fit: cover;
   background-position: center;

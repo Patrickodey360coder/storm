@@ -13,7 +13,7 @@ function Navs() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Item>
-              <Nav.Link eventKey="1" href="#hero">Home</Nav.Link>
+              <Nav.Link eventKey="1" href="/">Home</Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link eventKey="2" href="#services">Services</Nav.Link>
