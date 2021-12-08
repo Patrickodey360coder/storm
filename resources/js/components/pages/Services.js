@@ -11,7 +11,7 @@ function Services() {
   return (
     <div id="services">
       <div className="container">
-        <div className="row my-2 mx-2">
+        <div className="row my-3 mx-2">
           <div className="col-12 col-sm-12 col-md-6 col-lg-6">
             <div className="service-header my-2">
               We build experiences to elevate your Business.

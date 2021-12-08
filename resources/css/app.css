@@ -26,6 +26,11 @@ html,body
 
 .navbar a {
   color: #3292D9!important;
+  text-align: center;
+}
+
+.navbar a:hover {
+  color: #0e4269!important;
 }
 
 .navbar i {
@@ -35,6 +40,12 @@ html,body
 .navbar-toggler {
   border: none!important;
   color: #3292D9;
+}
+
+.navbar-toggler:focus {
+  text-decoration: none!important;
+  outline: 0!important;
+  box-shadow: 0 0 0 0.01rem !important;
 }
 
 /* Carousel overlay */

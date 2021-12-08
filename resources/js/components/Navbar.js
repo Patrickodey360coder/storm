@@ -9,7 +9,7 @@ function Navs() {
        <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="navbar sticky-top">
         <Container>
         <Navbar.Brand href="/" className="orange"><img src={logo} alt={logo} className="img-fluid logo" /></Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" ><i class="fas fa-bars"></i></Navbar.Toggle>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" ><i class="fas fa-bars fa-lg"></i></Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
             <Nav.Item>
