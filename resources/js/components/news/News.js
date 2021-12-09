@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import bg1 from '../../../images/bg-blog.jpg';
-import bg2 from '../../../images/bg-blog.jpg';
+import bg2 from '../../../images/about.jpg';
 import bg3 from '../../../images/bg-blog2.jpg';
 
 function News() {
