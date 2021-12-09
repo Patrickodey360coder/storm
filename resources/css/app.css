@@ -224,11 +224,11 @@ input:focus, textarea:focus, select:focus{
   padding: 0 0 30px 0;
   color: #212529;
   font-size: 14px;
-  background: #fef8f5;
+  background: #F3F4F6;
 }
 #footer .footer-newsletter {
   padding: 50px 0;
-  background: #FDF6F6;
+  background: #F3F4F6;
   font-size: 15px;
 }
 #footer .footer-newsletter h4 {
@@ -449,7 +449,7 @@ input:focus, textarea:focus, select:focus{
 
 /* Blog */
 .bloghero {
-  background-color: #0823371a;
+  background-color: #F3F4F6;
   margin-bottom: 2.5rem;
   padding-left: 6rem;
   padding-right: 6rem;
@@ -505,14 +505,3 @@ input:focus, textarea:focus, select:focus{
 .blognav {
   
 }
-
-/* .news {
-  box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
-  margin-top: 30px;
-  background-color: #fff;
-}
-
-.news img {
-  height: 180px;
-  width: 100%;
-} */

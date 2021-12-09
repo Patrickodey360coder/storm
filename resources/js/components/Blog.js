@@ -2,6 +2,7 @@ import React, {useEffect, useState} from 'react';
 import News from './news/News';
 import BlogHero from './BlogHero';
 import BlogNav from './BlogNav';
+import BlogFooter from './BlogFooter';
 
 function Blog() {
   const api_key = 'ac7d9996770a49ef9bacc2e5a740515c';
@@ -29,6 +30,7 @@ function Blog() {
       <BlogNav />
       <BlogHero />
       <News />
+      <BlogFooter />
     </>
   )
 }
