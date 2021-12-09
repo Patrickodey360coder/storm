@@ -447,7 +447,60 @@ input:focus, textarea:focus, select:focus{
   position: relative;
 } 
 
+/* Blog */
+.bloghero {
+  background-color: #0823371a;
+  margin-bottom: 2.5rem;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  font-size: 20px;
+}
+
+.blog-post-card {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .news {
+}
+
+.news .blog-post-title a {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 12px;
+  text-decoration: none;
+}
+
+.news .blog-post-author a {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 16px;
+  text-decoration: none;
+}
+
+.news .blog-post-timestamp {
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.news .blog-post-description {
+  font-size: 16px;
+}
+
+.news .blog-post-image {
+  margin-bottom: 12px;
+}
+
+.news .blog-post-image img{
+  border-radius: 10px;
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+/* .news {
   box-shadow: 0px 0px 20px 1px rgba(0,0,0,0.2);
   margin-top: 30px;
   background-color: #fff;
@@ -456,18 +509,4 @@ input:focus, textarea:focus, select:focus{
 .news img {
   height: 180px;
   width: 100%;
-}
-
-.blog-meta {
-  padding: 3px 1em;
-  font-size: 14px;
-}
-
-.blog-info {
-  padding: 1em;
-}
-
-.blog-info h2 {
-  font-size: 16px;
-}
-
+} */
